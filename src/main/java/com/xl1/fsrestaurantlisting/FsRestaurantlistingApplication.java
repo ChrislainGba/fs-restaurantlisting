@@ -1,13 +1,20 @@
 package com.xl1.fsrestaurantlisting;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FsRestaurantlistingApplication {
+public class FsRestaurantlistingApplication implements CommandLineRunner{
 
 	public static void main(String[] args) {
 		SpringApplication.run(FsRestaurantlistingApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
